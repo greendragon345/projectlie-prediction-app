@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#13296C"
+    android:gravity="center">
+    <TextView
+        android:background="#13296C"
+        android:textColor="#1C8E20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="you are now entering to an activty that tells you at what angle you should throw the object, please read and follow these instructaions: \n
+        1)put your phone on the arm that you throw with \n
+        2)hold your phone in that position with your 2nd arm \n
+        3) when you see a + sign on your phone lift your arm \n
+        4) when you see a - sign lower your arm \n
+        5) when you see that your phone's backround color is green stop for a few seconds if it is stil green then throw the object"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n \n"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_act"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0A730E"
+        android:text="confirm"/>
+</LinearLayout>

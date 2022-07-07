@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+    <EditText
+        android:background="#13296C"
+        android:textColor="#1C8E20"
+        android:textColorHint="#1C8E20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" enter hieght"
+        android:textSize="30dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/y0"/>
+
+    <EditText
+        android:background="#13296C"
+        android:textColor="#1C8E20"
+        android:textColorHint="#1C8E20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter forarm length"
+        android:id="@+id/foratmlength"
+        android:textSize="30dp"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:background="#13296C"
+        android:textColor="#1C8E20"
+        android:textColorHint="#1C8E20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter x"
+        android:id="@+id/xmeaure"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n"/>
+    <EditText
+        android:background="#13296C"
+        android:textColor="#1C8E20"
+        android:textColorHint="#1C8E20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter y"
+        android:textSize="30dp"
+        android:id="@+id/ymeasure"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n"/>
+
+    <EditText
+        android:background="#13296C"
+        android:textColor="#1C8E20"
+        android:textColorHint="#1C8E20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter object mass"
+        android:id="@+id/omass"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n"/>
+    <EditText
+        android:background="#13296C"
+        android:textColor="#1C8E20"
+        android:textColorHint="#1C8E20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter phone mass"
+        android:textSize="30dp"
+        android:id="@+id/pmass"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n"/>
+
+    <Button
+        android:layout_width="278dp"
+        android:layout_height="65dp"
+        android:text="measure your v0"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/startmeasuaring"
+        android:backgroundTint="#0A730E"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n"/>
+
+    <Button
+        android:layout_width="278dp"
+        android:layout_height="65dp"
+        android:text="measure the angle"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/measureangle"
+
+        android:backgroundTint="#0A730E"/>
+
+</LinearLayout>
