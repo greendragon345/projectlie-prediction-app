@@ -36,7 +36,7 @@ public class calculateacce extends AppCompatActivity implements SensorEventListe
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-       CountDownTimer t1 = new CountDownTimer(1000000000,1 ) {
+       CountDownTimer t1 = new CountDownTimer(2000000000,1 ) {
            @Override
            public void onTick(long l) {
                 Fmil++;
@@ -55,7 +55,6 @@ public class calculateacce extends AppCompatActivity implements SensorEventListe
         Sensor mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         mSensorManager.registerListener(this,mAccelerometer,SensorManager.SENSOR_DELAY_GAME);
         //Fmil = System.currentTimeMillis();
-
     }
 
     @Override
